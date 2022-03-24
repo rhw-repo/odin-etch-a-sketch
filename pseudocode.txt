@@ -1,0 +1,26 @@
+1. Define parameters: 
+- scalable grid of squares constructed in JavaScript using DOM methods
+- individual grid squares change colour on mouseenter and can later have that colour erased on mouseenter
+- buttons allow user to select that colour and to then erase it
+- a clear grid button and prompt window allows user to clear grid and reset grid size by number of squares to a maximum 
+  of 100 squares within same total grid area size
+
+2. Make a single test square div with id "cell", set #cell CSS rule for dimensions, white colour & grey border.
+
+3. Create a function to change colour of the div "cell" (addEventListener + mouseenter event firing nested function 
+changing "cell" color)
+
+4. Repeat to add a few colour options.  
+
+5. Add HTML colour choice button + onclick to fire one of those functions.  
+
+6.  Repeat to add a few colour options. 
+
+7. Create the scalable grid of div "cell" squares to populate a HTML grid container (loop and append to grid container). 
+
+8. Add HTML button to clear screen and send prompt for user to input number of squares. 
+
+9. Test the color change effect and button colour selection effect with the grid, debug. 
+
+
+
