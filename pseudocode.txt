@@ -16,7 +16,7 @@ changing "cell" color)
 
 6.  Repeat to add a few colour options. 
 
-7. Create the scalable grid of div "cell" squares to populate a HTML grid container (loop and append to grid container). 
+7. Create the scalable grid of div "cell" squares (using CSS grid layout in JS file) to populate a HTML grid container (replaces loop and append to grid container). 
 
 8. Add HTML button to clear screen and send prompt for user to input number of squares. 
 

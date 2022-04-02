@@ -1,0 +1,44 @@
+body {
+  margin: auto;
+  background-color: #fcedda;
+  color: #ee4e34;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  display: grid;
+}
+
+.buttons {
+  padding: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: white;
+  color: #ee4e34;
+  border: 1px solid #ee4e34;
+  font-family: 'Special Elite', cursive;
+  font-weight: bold;
+  text-align: center;
+}
